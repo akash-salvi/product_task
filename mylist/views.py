@@ -63,7 +63,7 @@ def removeFromCart(request):
     if request.method == 'POST':
         item_number = request.POST['number']
 
-        item=Cart.objects.get(product_number=item_number)
+        item=Cart.objects.filter(product_number=item_number).first()
     
         item.delete()
 
