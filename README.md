@@ -1,3 +1,3 @@
 # product_task
 
-link:https://myproduct-app.herokuapp.com/
+link: https://productlist-app.herokuapp.com/
